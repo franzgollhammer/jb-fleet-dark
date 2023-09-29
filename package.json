@@ -1,7 +1,10 @@
 {
   "name": "jb-fleet-dark",
+  "author": {
+    "name": "Franz Gollhammer"
+  },
   "displayName": "jb-fleet-dark",
-  "description": "",
+  "description": "JetBrains Fleet Dark theme for VS Code",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.82.0"
@@ -17,5 +20,11 @@
         "path": "./themes/Fleet Dark-color-theme.json"
       }
     ]
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franzgollhammer/jb-fleet-dark"
+  },
+  "publisher": "franzgollhammer"
 }
