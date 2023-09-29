@@ -1,0 +1,21 @@
+{
+  "name": "jb-fleet-dark",
+  "displayName": "jb-fleet-dark",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fleet Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fleet Dark-color-theme.json"
+      }
+    ]
+  }
+}
