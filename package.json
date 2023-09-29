@@ -5,7 +5,7 @@
   },
   "displayName": "JB Fleet Dark",
   "description": "JetBrains Fleet Dark theme for VS Code",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -27,5 +27,9 @@
     "url": "https://github.com/franzgollhammer/jb-fleet-dark"
   },
   "publisher": "franzgollhammer",
-  "icon": "icon.png"
+  "icon": "icon.png",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  }
 }
