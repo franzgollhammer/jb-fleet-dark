@@ -5,7 +5,7 @@
   },
   "displayName": "JB Fleet Dark",
   "description": "JetBrains Fleet Dark theme for VS Code",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -17,7 +17,12 @@
       {
         "label": "Fleet Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Dark-color-theme.json"
+        "path": "./themes/Fleet Dark Flat-color-theme.json"
+      },
+      {
+        "label": "Fleet Dark Bordered",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fleet Dark Bordered-color-theme.json"
       }
     ]
   },
@@ -30,6 +35,6 @@
   "icon": "icon.png",
   "scripts": {
     "package": "vsce package",
-    "publish": "vsce publish"
+    "publish": "vsce package && vsce publish"
   }
 }
