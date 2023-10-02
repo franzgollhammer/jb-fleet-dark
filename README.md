@@ -1,10 +1,9 @@
 <h1 align="center">
-<img style="margin-left: auto; margin-right: auto; display: block; margin-bottom: 30px;" src="icon.png">
   Fleet Dark
 </h1>
 
 <h3 align="center">
-  Jet Brains Fleet Dark ported to VS Code.
+  Jet Brains Fleet Dark adaption for VS Code.
 </h3>
 
 <h4>
