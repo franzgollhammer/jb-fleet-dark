@@ -1,7 +1,5 @@
-
-
 <h1 align="center">
-  <img src="icon.png">
+<img style="margin-left: auto; margin-right: auto; display: block; margin-bottom: 30px;" src="icon.png">
   Fleet Dark
 </h1>
 
