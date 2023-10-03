@@ -1,17 +1,35 @@
 {
   "name": "jb-fleet-dark",
-  "author": {
-    "name": "Franz Gollhammer"
-  },
   "displayName": "JB Fleet Dark",
-  "description": "JetBrains Fleet Dark theme for VS Code",
-  "version": "0.0.8",
-  "engines": {
-    "vscode": "^1.82.0"
-  },
+  "version": "0.0.9",
+  "description": "JetBrains Fleet Dark inspired theme for VS Code",
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Fleet",
+    "Fleet Dark",
+    "Jetbrains",
+    "Jet Brains",
+    "Jet Brains Fleet",
+    "Juice",
+    "Juicy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franzgollhammer/jb-fleet-dark"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Franz Gollhammer"
+  },
+  "publisher": "franzgollhammer",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce package && vsce publish"
+  },
   "contributes": {
     "themes": [
       {
@@ -26,15 +44,8 @@
       }
     ]
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/franzgollhammer/jb-fleet-dark"
+  "engines": {
+    "vscode": "^1.82.0"
   },
-  "publisher": "franzgollhammer",
-  "icon": "icon.png",
-  "scripts": {
-    "package": "vsce package",
-    "publish": "vsce package && vsce publish"
-  }
+  "icon": "icon.png"
 }
