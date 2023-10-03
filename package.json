@@ -27,8 +27,8 @@
   },
   "publisher": "franzgollhammer",
   "scripts": {
-    "package": "vsce package",
-    "publish": "vsce package && vsce publish"
+    "package": "npx sort-package-json && vsce package",
+    "publish": "npm run package && vsce publish"
   },
   "contributes": {
     "themes": [
