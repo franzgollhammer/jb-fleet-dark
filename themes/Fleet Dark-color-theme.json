@@ -50,7 +50,7 @@
     "editor.findRangeHighlightBorder": "#d6d6dd00",
     "editor.foldBackground": "#1d1d1d",
     "editor.foreground": "#d6d6dd",
-    "editor.hoverHighlightBackground": "#5b51ec70",
+    // "editor.hoverHighlightBackground": "#5b51ec70",
     "editor.inactiveSelectionBackground": "#363636",
     "editor.lineHighlightBackground": "#292929",
     "editor.lineHighlightBorder": "#d6d6dd00",
