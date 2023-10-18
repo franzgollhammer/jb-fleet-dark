@@ -1,5 +1,5 @@
 <h1 align="center">
-  Fleet Dark
+  <img src="icon.png">
 </h1>
 
 <h3 align="center">

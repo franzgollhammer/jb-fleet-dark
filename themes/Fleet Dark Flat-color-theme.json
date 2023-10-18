@@ -2,6 +2,7 @@
 	"$schema": "vscode://schemas/color-theme",
   "name": "Fleet Dark Flat",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"activityBar.activeBackground": "#181818",
 		"activityBar.background": "#181818",
@@ -828,7 +829,7 @@
 		{
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
@@ -858,7 +859,7 @@
 		{
 			"scope": "markup.inserted.diff",
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
@@ -1362,7 +1363,7 @@
 		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
@@ -1416,7 +1417,7 @@
 		{
 			"scope": "meta.property-value.css",
 			"settings": {
-				"foreground": "#E394DC",
+				"foreground": "#98C379",
 				"fontStyle": ""
 			}
 		},
@@ -1521,13 +1522,13 @@
 		{
 			"scope": "markup.inline.raw.markdown",
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
 			"scope": "markup.inline.raw.string.markdown",
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
@@ -1641,7 +1642,7 @@
 		{
 			"scope": "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation",
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
@@ -1942,7 +1943,7 @@
 				"keyword.other.template.begin"
 			],
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
@@ -1950,7 +1951,7 @@
 				"keyword.other.template.end"
 			],
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
@@ -1958,7 +1959,7 @@
 				"keyword.other.substitution.begin"
 			],
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
@@ -1966,7 +1967,7 @@
 				"keyword.other.substitution.end"
 			],
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
@@ -2081,7 +2082,7 @@
 				"source.ini"
 			],
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
@@ -2129,7 +2130,7 @@
 				"meta.definition.class.inherited.classes.groovy"
 			],
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
@@ -2240,7 +2241,7 @@
 				"beginning.punctuation.definition.quote.markdown.xi"
 			],
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
