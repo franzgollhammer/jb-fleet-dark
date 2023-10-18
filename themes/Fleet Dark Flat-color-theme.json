@@ -50,7 +50,7 @@
     "editor.findRangeHighlightBorder": "#d6d6dd00",
     "editor.foldBackground": "#1d1d1d",
     "editor.foreground": "#d6d6dd",
-    "editor.hoverHighlightBackground": "#5b51ec70",
+    // "editor.hoverHighlightBackground": "#5b51ec70",
     "editor.inactiveSelectionBackground": "#363636",
     "editor.lineHighlightBackground": "#292929",
     "editor.lineHighlightBorder": "#d6d6dd00",
@@ -519,7 +519,7 @@
     //"quickInputList.focusBackground": "#163761",
     //"quickInputList.focusForeground": "#d6d6dd",
     //"quickInputTitle.background": "#ffffff1b",
-    "sash.hoverBorder": "#383838",
+    "sash.hoverBorder": "#1981ef",
     //"scm.providerBorder": "#454545",
     //"search.resultsInfoForeground": "#d6d6dda6",
     //"searchEditor.findMatchBackground": "#7c511aa8",
@@ -2395,5 +2395,57 @@
         "fontStyle": ""
       }
     },
+    {
+      "scope": [
+        "support.class",
+        "support.type",
+        "entity.name.type",
+        "entity.name.namespace",
+        "entity.other.attribute",
+        "entity.name.scope-resolution",
+        "entity.name.class",
+        "storage.type.numeric.go",
+        "storage.type.byte.go",
+        "storage.type.boolean.go",
+        "storage.type.string.go",
+        "storage.type.uintptr.go",
+        "storage.type.error.go",
+        "storage.type.rune.go",
+        "storage.type.cs",
+        "storage.type.generic.cs",
+        "storage.type.modifier.cs",
+        "storage.type.variable.cs",
+        "storage.type.annotation.java",
+        "storage.type.generic.java",
+        "storage.type.java",
+        "storage.type.object.array.java",
+        "storage.type.primitive.array.java",
+        "storage.type.primitive.java",
+        "storage.type.token.java",
+        "storage.type.groovy",
+        "storage.type.annotation.groovy",
+        "storage.type.parameters.groovy",
+        "storage.type.generic.groovy",
+        "storage.type.object.array.groovy",
+        "storage.type.primitive.array.groovy",
+        "storage.type.primitive.groovy"
+      ],
+      "settings": {
+        "foreground": "#EFB080"
+      }
+    },
+    {
+      "scope": [
+        "meta.type.cast.expr",
+        "meta.type.new.expr",
+        "support.constant.math",
+        "support.constant.dom",
+        "support.constant.json",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "#EFB080"
+      }
+    }
   ]
 }
