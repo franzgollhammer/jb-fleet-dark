@@ -164,7 +164,7 @@
     "merge.incomingHeaderBackground": "#395f8f",
     "minimap.background": "#181818",
     "minimap.errorHighlight": "#f14c4c",
-    "minimap.findMatchHighlight": "#15ac9170",
+    "minimap.findMatchHighlight": "#7c511a",
     "minimap.selectionHighlight": "#363636",
     "minimap.warningHighlight": "#ea7620",
     "minimapGutter.addedBackground": "#15ac91",
