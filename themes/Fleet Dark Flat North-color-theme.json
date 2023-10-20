@@ -6,7 +6,7 @@
   "colors": {
     // "activityBar.activeBackground": "#191b20",
     "activityBar.background": "#191b20",
-    "activityBar.border": "#383838",
+    "activityBar.border": "#14171b",
     "activityBar.foreground": "#e3e1e3",
     "activityBar.inactiveForeground": "#7a797a",
     "activityBarBadge.background": "#1981ef",
@@ -213,7 +213,7 @@
     "settings.focusedRowBackground": "#d6d6dd07",
     "settings.headerForeground": "#d6d6dd",
     "sideBar.background": "#14171b",
-    "sideBar.border": "#383838",
+    "sideBar.border": "#14171b",
     "sideBar.dropBackground": "#d6d6dd00",
     "sideBar.foreground": "#d1d1d1",
     "sideBarSectionHeader.background": "#191b2000",
