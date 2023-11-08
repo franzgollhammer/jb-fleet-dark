@@ -1,8 +1,8 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Fleet Dark Flat",
-  "semanticHighlighting": true,
   "type": "dark",
+  "name": "Fleet Dark North",
+  "semanticHighlighting": true,
   "colors": {
     // "activityBar.activeBackground": "#191b20",
     "activityBar.background": "#191b20",
