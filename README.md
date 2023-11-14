@@ -1,20 +1,18 @@
-<h1 align="center">
-  <img src="icon.png">
+<h1>
+  Jet Brains Fleet Dark
 </h1>
 
-<h3 align="center">
-  Jet Brains Fleet Dark Theme and derivatives for VS Code.
-</h3>
+Jet Brains Fleet Dark Theme and derivatives for VS Code.
 
-<h4>
+<h2>
   Javascript
 </h4>
 <img src="example_js.png">
-<h4>
+<h2>
   Python
-</h4>
+</h2>
 <img src="example_py.png">
-<h4>
+<h2>
   C-Sharp
-</h4>
+</h2>
 <img src="example_cs.png">

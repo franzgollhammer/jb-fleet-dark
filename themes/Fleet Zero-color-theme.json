@@ -240,7 +240,7 @@
     "tab.activeBorderTop": "#d6d6dd",
     "tab.activeForeground": "#d6d6dd",
     "tab.border": "#212121",
-    "tab.hoverBorder": "#6d6d7071",
+    // "tab.hoverBorder": "#6d6d7071",
     "tab.hoverForeground": "#d6d6dd",
     "tab.inactiveBackground": "#000000",
     "tab.inactiveForeground": "#7d7d7d",
