@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Jet Brains Fleet Dark adaption for VS Code.
+  Jet Brains Fleet Dark Theme and derivatives for VS Code.
 </h3>
 
 <h4>
