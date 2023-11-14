@@ -41,6 +41,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "Fleet Zero",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fleet Zero-color-theme.json"
+      },
+      {
         "label": "Fleet Palenight",
         "uiTheme": "vs-dark",
         "path": "./themes/Fleet Palenight-color-theme.json"
