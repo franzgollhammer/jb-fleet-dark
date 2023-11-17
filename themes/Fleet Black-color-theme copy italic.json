@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Fleet Zero",
+  "name": "Fleet Black",
   "semanticHighlighting": true,
   "type": "dark",
   "colors": {
@@ -255,7 +255,7 @@
     "terminal.ansiWhite": "#626262",
     "terminal.ansiYellow": "#E0911A",
     "terminal.ansiBrightCyan": "#2DCCE5",
-    "terminal.ansiBrightGreen": "#a5e075",
+    "terminal.ansiBrightGreen": "#82d2ce",
     "terminal.ansiBrightMagenta": "#EB83E2",
     "terminal.ansiBrightRed": "#C73648",
     "terminal.ansiBrightWhite": "#6C6C6C",
@@ -1350,7 +1350,7 @@
 		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#E394DC"
 			}
 		},
 		{
@@ -2295,6 +2295,7 @@
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
 				"foreground": "#6D6D6D",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -2320,6 +2321,7 @@
 		{
 			"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
 			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -2331,11 +2333,13 @@
 		{
 			"scope": "keyword.control.import.python,keyword.control.flow.python",
 			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "markup.italic.markdown",
 			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{
