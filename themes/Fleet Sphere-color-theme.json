@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-  "name": "Fleet Grey",
+	"name": "Fleet Sphere",
   "semanticHighlighting": true,
 	"type": "dark",
 	"colors": {
@@ -242,22 +242,22 @@
 		"tab.hoverForeground": "#d6d6dd",
 		"tab.inactiveBackground": "#292929",
 		"tab.inactiveForeground": "#d6d6dd",
-		"terminal.ansiBrightBlack": "#d1d1d1",
-    "terminal.ansiBrightBlue": "#1D6BCC",
-    "terminal.ansiBlack": "#717171",
-    "terminal.ansiBlue": "#0167E6",
-    "terminal.ansiCyan": "#03BAD7",
-    "terminal.ansiGreen": "#029E6E",
-    "terminal.ansiMagenta": "#EB4DDE",
-    "terminal.ansiRed": "#C6001A",
-    "terminal.ansiWhite": "#626262",
-    "terminal.ansiYellow": "#E0911A",
-    "terminal.ansiBrightCyan": "#2DCCE5",
-    "terminal.ansiBrightGreen": "#82d2ce",
-    "terminal.ansiBrightMagenta": "#EB83E2",
-    "terminal.ansiBrightRed": "#C73648",
-    "terminal.ansiBrightWhite": "#6C6C6C",
-    "terminal.ansiBrightYellow": "#F9D175",
+		"terminal.ansiBlack": "#676767",
+		"terminal.ansiBlue": "#4c9df3",
+		"terminal.ansiBrightBlack": "#676767",
+		"terminal.ansiBrightBlue": "#4c9df3",
+		"terminal.ansiBrightCyan": "#75d3ba",
+		"terminal.ansiBrightGreen": "#15ac91",
+		"terminal.ansiBrightMagenta": "#e567dc",
+		"terminal.ansiBrightRed": "#f14c4c",
+		"terminal.ansiBrightWhite": "#d6d6dd",
+		"terminal.ansiBrightYellow": "#e5b95c",
+		"terminal.ansiCyan": "#75d3ba",
+		"terminal.ansiGreen": "#15ac91",
+		"terminal.ansiMagenta": "#e567dc",
+		"terminal.ansiRed": "#f14c4c",
+		"terminal.ansiWhite": "#d6d6dd",
+		"terminal.ansiYellow": "#e5b95c",
 		"terminal.background": "#191919",
 		"terminal.border": "#383838",
 		"terminal.foreground": "#d6d6dd",
@@ -930,7 +930,13 @@
 		{
 			"scope": "variable.other.constant",
 			"settings": {
-				"foreground": "#D6D6DD"
+				"foreground": "#EFB080"
+			}
+		},
+		{
+			"scope": "variable.other.constant",
+			"settings": {
+				"foreground": "#AA9BF5"
 			}
 		},
 		{
@@ -1041,11 +1047,11 @@
 		{
 			"scope": "variable.other.readwrite",
 			"settings": {
-				"foreground": "#D6D6DD"
+				"foreground": "#94C1FA"
 			}
 		},
 		{
-			"scope": "support.variable.property, variable.other.constant.property",
+			"scope": "support.variable.property",
 			"settings": {
 				"foreground": "#AA9BF5"
 			}
@@ -1081,7 +1087,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.function.js, support.function.console.js,entity.name.function.ts",
+			"scope": "entity.name.function.js,support.function.console.js",
 			"settings": {
 				"foreground": "#EBC88D"
 			}
@@ -1361,7 +1367,7 @@
 		{
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#EBC88D"
+				"foreground": "#EFB080"
 			}
 		},
 		{
@@ -2325,6 +2331,7 @@
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
 				"foreground": "#6D6D6D",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -2350,6 +2357,7 @@
 		{
 			"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
 			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -2361,70 +2369,14 @@
 		{
 			"scope": "keyword.control.import.python,keyword.control.flow.python",
 			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "markup.italic.markdown",
 			"settings": {
+				"fontStyle": "italic"
 			}
-		},
-		{
-      "scope": [
-        "support.class",
-        "entity.name.class",
-        "support.type",
-        "entity.name.type",
-        "entity.name.namespace",
-        "entity.other.attribute",
-        "entity.name.scope-resolution",
-        "storage.type.numeric.go",
-        "storage.type.byte.go",
-        "storage.type.boolean.go",
-        "storage.type.string.go",
-        "storage.type.uintptr.go",
-        "storage.type.error.go",
-        "storage.type.rune.go",
-        "storage.type.cs",
-        "storage.type.generic.cs",
-        "storage.type.modifier.cs",
-        "storage.type.variable.cs",
-        "storage.type.annotation.java",
-        "storage.type.generic.java",
-        "storage.type.java",
-        "storage.type.object.array.java",
-        "storage.type.primitive.array.java",
-        "storage.type.primitive.java",
-        "storage.type.token.java",
-        "storage.type.groovy",
-        "storage.type.annotation.groovy",
-        "storage.type.parameters.groovy",
-        "storage.type.generic.groovy",
-        "storage.type.object.array.groovy",
-        "storage.type.primitive.array.groovy",
-        "storage.type.primitive.groovy"
-      ],
-      "settings": {
-        "foreground": "#94C1FA"
-      }
-    },
-		{
-      "scope": [
-        "support.class",
-        "entity.name.class",
-				"constant.language.boolean"
-      ],
-      "settings": {
-        "foreground": "#83d6c5"
-      }
-    },
-		{
-      "scope": [
-        "storage.type.function.arrow",
-      ],
-      "settings": {
-        "foreground": "#D6D6DD",
-        "fontStyle": ""
-      }
-    },
+		}
 	]
 }
