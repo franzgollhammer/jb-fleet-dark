@@ -822,7 +822,7 @@
 		{
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
-				"foreground": "#E394DC"
+				"foreground": "#98C379"
 			}
 		},
 		{
