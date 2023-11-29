@@ -51,13 +51,13 @@
     "editor.foldBackground": "#000000",
     "editor.foreground": "#d6d6dd",
     // "editor.hoverHighlightBackground": "#5b51ec70",
-    "editor.inactiveSelectionBackground": "#212121",
+    "editor.inactiveSelectionBackground": "#3a3d41",
     // "editor.lineHighlightBackground": "#292929",
     "editor.lineHighlightBorder": "#212121",
     "editor.rangeHighlightBackground": "#000000",
     "editor.rangeHighlightBorder": "#21212100",
     "editor.selectionBackground": "#163761",
-    "editor.selectionHighlightBackground": "#16376170",
+    "editor.selectionHighlightBackground": "#add6ff26",
     "editor.selectionHighlightBorder": "#212121",
     "editor.wordHighlightBackground": "#ff000000",
     "editor.wordHighlightBorder": "#212121",
@@ -255,7 +255,7 @@
     "terminal.ansiWhite": "#626262",
     "terminal.ansiYellow": "#E0911A",
     "terminal.ansiBrightCyan": "#2DCCE5",
-    "terminal.ansiBrightGreen": "#82d2ce",
+    "terminal.ansiBrightGreen": "#81DE8A",
     "terminal.ansiBrightMagenta": "#EB83E2",
     "terminal.ansiBrightRed": "#C73648",
     "terminal.ansiBrightWhite": "#6C6C6C",
@@ -822,7 +822,7 @@
 		{
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
@@ -852,7 +852,7 @@
 		{
 			"scope": "markup.inserted.diff",
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
@@ -1350,7 +1350,7 @@
 		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
@@ -1404,7 +1404,7 @@
 		{
 			"scope": "meta.property-value.css",
 			"settings": {
-				"foreground": "#98C379",
+				"foreground": "#81DE8A",
 				"fontStyle": ""
 			}
 		},
@@ -1509,13 +1509,13 @@
 		{
 			"scope": "markup.inline.raw.markdown",
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
 			"scope": "markup.inline.raw.string.markdown",
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
@@ -1629,7 +1629,7 @@
 		{
 			"scope": "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation",
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
@@ -1930,7 +1930,7 @@
 				"keyword.other.template.begin"
 			],
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
@@ -1938,7 +1938,7 @@
 				"keyword.other.template.end"
 			],
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
@@ -1946,7 +1946,7 @@
 				"keyword.other.substitution.begin"
 			],
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
@@ -1954,7 +1954,7 @@
 				"keyword.other.substitution.end"
 			],
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
@@ -2069,7 +2069,7 @@
 				"source.ini"
 			],
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
@@ -2117,7 +2117,7 @@
 				"meta.definition.class.inherited.classes.groovy"
 			],
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
@@ -2212,7 +2212,7 @@
 				"beginning.punctuation.definition.quote.markdown.xi"
 			],
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#81DE8A"
 			}
 		},
 		{
@@ -2295,7 +2295,6 @@
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
 				"foreground": "#6D6D6D",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -2321,7 +2320,6 @@
 		{
 			"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
 			"settings": {
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -2333,13 +2331,11 @@
 		{
 			"scope": "keyword.control.import.python,keyword.control.flow.python",
 			"settings": {
-				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "markup.italic.markdown",
 			"settings": {
-				"fontStyle": "italic"
 			}
 		},
 		{
