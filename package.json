@@ -1,7 +1,7 @@
 {
   "name": "jb-fleet-dark",
   "displayName": "JetBrains Fleet Dark",
-  "version": "0.0.88",
+  "version": "0.0.92",
   "description": "JetBrains Fleet Dark inspired theme for VS Code",
   "categories": [
     "Themes"
@@ -34,8 +34,8 @@
   "publisher": "franzgollhammer",
   "scripts": {
     "package": "vsce package",
-    "publish": "npm run upgrade-package-version && npm run sort-package && npm run package && vsce publish",
-    "sort-package": "npx sort-package-json ",
+    "publish": "pnpm run upgrade-package-version && pnpm run sort-package && pnpm run package && vsce publish",
+    "sort-package": "pnpm dlx sort-package-json ",
     "upgrade-package-version": "node ./scripts/upgrade-package-version.js"
   },
   "contributes": {
@@ -109,6 +109,11 @@
         "label": "Dark Modern Black",
         "uiTheme": "vs-dark",
         "path": "./themes/Dark Modern Black-color-theme.json"
+      },
+      {
+        "label": "Dark Modern Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Modern Dark-color-theme.json"
       }
     ]
   },
