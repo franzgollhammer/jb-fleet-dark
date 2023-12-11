@@ -1,7 +1,7 @@
 {
   "name": "jb-fleet-dark",
   "displayName": "JetBrains Fleet Dark",
-  "version": "0.0.95",
+  "version": "0.0.97",
   "description": "JetBrains Fleet Dark inspired theme for VS Code",
   "categories": [
     "Themes"
@@ -53,7 +53,7 @@
       {
         "label": "Fleet Zero Black",
         "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Black Dark-color-theme.json"
+        "path": "./themes/Fleet Zero Black-color-theme.json"
       },
       {
         "label": "Fleet Palenight",
