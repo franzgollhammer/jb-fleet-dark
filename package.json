@@ -1,7 +1,7 @@
 {
   "name": "jb-fleet-dark",
   "displayName": "JetBrains Fleet Dark",
-  "version": "0.0.97",
+  "version": "0.0.107",
   "description": "JetBrains Fleet Dark inspired theme for VS Code",
   "categories": [
     "Themes"
@@ -41,9 +41,19 @@
   "contributes": {
     "themes": [
       {
+        "label": "Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark-color-theme.json"
+      },
+      {
         "label": "Fleet",
         "uiTheme": "vs-dark",
         "path": "./themes/Fleet-color-theme.json"
+      },
+      {
+        "label": "Fleet Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fleet Dark-color-theme.json"
       },
       {
         "label": "Fleet Zero",
@@ -71,9 +81,9 @@
         "path": "./themes/Fleet Black Italic-color-theme.json"
       },
       {
-        "label": "Fleet Dark",
+        "label": "Fleet Dark Modern",
         "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Dark-color-theme.json"
+        "path": "./themes/Fleet Dark Modern-color-theme.json"
       },
       {
         "label": "Fleet Dark Italic",
@@ -84,11 +94,6 @@
         "label": "Fleet Grey",
         "uiTheme": "vs-dark",
         "path": "./themes/Fleet Grey-color-theme.json"
-      },
-      {
-        "label": "Fleet Rock",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Rock-color-theme.json"
       },
       {
         "label": "Fleet Ocean",
@@ -114,8 +119,16 @@
         "label": "Dark Modern Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Dark Modern Dark-color-theme.json"
+      },
+      {
+        "label": "Black Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Black Modern-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
   },
   "engines": {
     "vscode": "^1.82.0"
