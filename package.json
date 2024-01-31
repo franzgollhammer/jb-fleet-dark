@@ -34,8 +34,8 @@
   "publisher": "franzgollhammer",
   "scripts": {
     "package": "vsce package",
-    "publish": "pnpm run upgrade-package-version && pnpm run sort-package && pnpm run package && vsce publish",
-    "sort-package": "pnpm dlx sort-package-json ",
+    "publish": "npm run upgrade-package-version && npm run sort-package && npm run package && vsce publish",
+    "sort-package": "npx sort-package-json ",
     "upgrade-package-version": "node ./scripts/upgrade-package-version.js"
   },
   "contributes": {
@@ -104,6 +104,11 @@
         "label": "Fleet Ocean",
         "uiTheme": "vs-dark",
         "path": "./themes/Fleet Ocean-color-theme.json"
+      },
+      {
+        "label": "Sphere",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fleet Sphere-color-theme.json"
       },
       {
         "label": "Fleet Sphere",
