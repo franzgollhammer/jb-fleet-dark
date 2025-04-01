@@ -1,7 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Fleet Black",
-  "semanticHighlighting": true,
+  "name": "Fleet Sphere Black",
   "type": "dark",
   "colors": {
     // "activityBar.activeBackground": "#000000",
