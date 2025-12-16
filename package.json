@@ -31,8 +31,8 @@
   },
   "publisher": "franzgollhammer",
   "scripts": {
-    "package": "vsce package",
-    "publish": "npm run upgrade-package-version && npm run sort-package && npm run package && vsce publish",
+    "package": "npx vsce package",
+    "publish": "npm run upgrade-package-version && npm run sort-package && npm run package && npx vsce publish",
     "sort-package": "npx sort-package-json ",
     "upgrade-package-version": "node ./scripts/upgrade-package-version.js"
   },
