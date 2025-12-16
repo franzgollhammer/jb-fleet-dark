@@ -2429,7 +2429,6 @@
       "scope": [
         "support.class",
         "entity.name.class",
-        "constant.language.boolean"
       ],
       "settings": {
         "foreground": "#4FA992"
