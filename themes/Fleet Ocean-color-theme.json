@@ -1,7 +1,7 @@
 {
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
-  "name": "Fleet Dark Ocean",
+  "name": "Fleet Ocean",
   "semanticHighlighting": true,
   "colors": {
     "actionBar.toggledBackground": "#383a49",

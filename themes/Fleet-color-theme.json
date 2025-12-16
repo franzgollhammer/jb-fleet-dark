@@ -1,7 +1,7 @@
 {
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
-  "name": "Fleet Dark Modern",
+  "name": "Fleet",
   "semanticHighlighting": true,
   "colors": {
     "actionBar.toggledBackground": "#383a49",

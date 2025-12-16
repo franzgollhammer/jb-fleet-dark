@@ -1,6 +1,8 @@
 {
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
+  "name": "Sphere",
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.background": "#141414",
     "activityBar.foreground": "#e4e4e48d",

@@ -19,9 +19,7 @@
     "JetBrains Fleet Dark",
     "Jet Brains",
     "Jet Brains Fleet",
-    "Juice",
-    "Juicy",
-    "modern"
+    "Sphere"
   ],
   "repository": {
     "type": "git",
@@ -46,59 +44,9 @@
         "path": "./themes/Fleet-color-theme.json"
       },
       {
-        "label": "Cyberbug",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Cyberbug-color-theme.json"
-      },
-      {
-        "label": "Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dark-color-theme.json"
-      },
-      {
-        "label": "Black",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Black-color-theme.json"
-      },
-      {
         "label": "Fleet Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Fleet Dark-color-theme.json"
-      },
-      {
-        "label": "Fleet Zero",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Zero-color-theme.json"
-      },
-      {
-        "label": "Fleet Zero Black",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Zero Black-color-theme.json"
-      },
-      {
-        "label": "Fleet Palenight",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Palenight-color-theme.json"
-      },
-      {
-        "label": "Fleet Black",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Black-color-theme.json"
-      },
-      {
-        "label": "Fleet Black Italic",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Black Italic-color-theme.json"
-      },
-      {
-        "label": "Fleet Dark Modern",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Dark Modern-color-theme.json"
-      },
-      {
-        "label": "Fleet Dark Italic",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Dark Italic-color-theme.json"
       },
       {
         "label": "Fleet Grey",
@@ -111,24 +59,14 @@
         "path": "./themes/Fleet Ocean-color-theme.json"
       },
       {
+        "label": "Fleet Palenight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fleet Palenight-color-theme.json"
+      },
+      {
         "label": "Sphere",
         "uiTheme": "vs-dark",
         "path": "./themes/Sphere-color-theme.json"
-      },
-      {
-        "label": "Fleet Sphere",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Sphere-color-theme.json"
-      },
-      {
-        "label": "Fleet Sphere Black",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Sphere Black-color-theme.json"
-      },
-      {
-        "label": "Black Modern",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Black Modern-color-theme.json"
       }
     ]
   },
