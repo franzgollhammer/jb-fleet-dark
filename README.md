@@ -1,8 +1,6 @@
 <h1>
-  Jet Brains Fleet Dark
+  VS Code Fleet
 </h1>
-
-Jet Brains Fleet Dark Theme and derivatives for VS Code.
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr)">
   <div>
