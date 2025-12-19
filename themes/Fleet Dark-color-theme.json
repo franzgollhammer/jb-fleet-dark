@@ -2246,14 +2246,5 @@
         "fontStyle": "italic"
       }
     },
-    {
-      "scope": [
-        "support.class",
-        "entity.name.class",
-      ],
-      "settings": {
-        "foreground": "#70b489"
-      }
-    },
   ]
 }
