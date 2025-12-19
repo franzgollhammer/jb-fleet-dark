@@ -2204,14 +2204,14 @@
     {
       "scope": "comment, punctuation.definition.comment, comment.line.double-slash, comment.block.documentation",
       "settings": {
-        "foreground": "#E4E4E45E",
+        "foreground": "#909192",
         "fontStyle": "italic"
       }
     },
     {
       "scope": "markup.quote.markdown",
       "settings": {
-        "foreground": "#E4E4E45E"
+        "foreground": "#909192"
       }
     },
     {
