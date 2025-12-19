@@ -28,6 +28,7 @@
   },
   "publisher": "franzgollhammer",
   "scripts": {
+    "ncu": "npx npm-check-updates -u",
     "package": "npx vsce package",
     "publish": "npm run upgrade-package-version && npm run sort-package && npm run package && npx vsce publish",
     "sort-package": "npx sort-package-json ",
@@ -68,7 +69,7 @@
     ]
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.22.0"
+    "@vscode/vsce": "^3.7.1"
   },
   "engines": {
     "vscode": "^1.82.0"
