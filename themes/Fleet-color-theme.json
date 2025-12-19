@@ -101,8 +101,8 @@
 		"sideBarTitle.foreground": "#dddddd",
 		"statusBar.background": "#090909",
 		"statusBar.border": "#090909",
-		"statusBar.debuggingBackground": "#0078d4",
-		"statusBar.debuggingForeground": "#ffffff",
+		"statusBar.debuggingBackground": "#090909",
+		"statusBar.debuggingForeground": "#cccccc",
 		"statusBar.focusBorder": "#0078d4",
 		"statusBar.foreground": "#868686",
 		"statusBar.noFolderBackground": "#18191B",
@@ -1234,7 +1234,7 @@
     {
       "scope": "variable.other.readwrite",
       "settings": {
-        "foreground": "#87C3FF"
+        "foreground": "#D6D6DD"
       }
     },
     {
@@ -1245,7 +1245,7 @@
         "meta.definition.property.ts"
       ],
       "settings": {
-        "foreground": "#AAA0FA"
+        "foreground": "#D6D6DD"
       }
     },
     {

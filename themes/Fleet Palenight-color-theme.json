@@ -796,7 +796,7 @@
     //"window.activeBorder": null,
     //"window.inactiveBorder": null
   },
-"tokenColors": [
+  "tokenColors": [
     {
       "scope": "string.quoted.binary.single.python",
       "settings": {
@@ -1111,7 +1111,7 @@
     {
       "scope": "variable.other.readwrite",
       "settings": {
-        "foreground": "#87C3FF"
+        "foreground": "#D6D6DD"
       }
     },
     {
@@ -1122,7 +1122,7 @@
         "meta.definition.property.ts"
       ],
       "settings": {
-        "foreground": "#AAA0FA"
+        "foreground": "#D6D6DD"
       }
     },
     {
