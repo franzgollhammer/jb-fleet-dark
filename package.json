@@ -1,21 +1,18 @@
 {
   "name": "jb-fleet-dark",
-  "displayName": "JetBrains Fleet Dark",
-  "version": "0.0.140",
-  "description": "JetBrains Fleet Dark inspired theme for VS Code",
+  "displayName": "VS Code Fleet",
+  "version": "1.0.0",
+  "description": "VS Code Fleet inspired by JetBrains Fleet Dark Theme",
   "categories": [
     "Themes"
   ],
   "keywords": [
     "Theme",
-    "JB",
-    "Justin Bieber",
-    "J Bibbles",
     "Dark Theme",
     "Fleet",
-    "Fleet Dark",
+    "VS Code Fleet",
+    "VS Code Fleet Dark",
     "Jetbrains",
-    "JetBrains",
     "JetBrains Fleet Dark",
     "Jet Brains",
     "Jet Brains Fleet",
