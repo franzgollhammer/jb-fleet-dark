@@ -5,36 +5,43 @@
   </p>
 </div>
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr)">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); gap: 1.5rem">
    <div>
-    <p>
-      Javascript
+    <p style="font-size: 1.5rem">
+      Fleet
+    </p>
     </h4>
     <img src="example_js.png" style="max-width: ">
   </div>
    <div>
-    <p>
-      Javascript
+    <p style="font-size: 1.5rem">
+      Fleet Ocean
+    </p>
+    </h4>
+    <img src="example_js.png" style="max-width: ">
+  </div><div>
+    <p style="font-size: 1.5rem">
+      Fleet Palenight
+    </p>
+    </h4>
+    <img src="example_js.png" style="max-width: ">
+  </div><div>
+    <p style="font-size: 1.5rem">
+      Fleet Grey
+    </p>
+    </h4>
+    <img src="example_js.png" style="max-width: ">
+  </div><div>
+    <p style="font-size: 1.5rem">
+      Fleet Dark
+    </p>
+    </h4>
+    <img src="example_js.png" style="max-width: ">
+  </div><div>
+    <p style="font-size: 1.5rem">
+      Sphere
+    </p>
     </h4>
     <img src="example_js.png" style="max-width: ">
   </div>
-   <div>
-    <p>
-      Javascript
-    </h4>
-    <img src="example_js.png" style="max-width: ">
-  </div>
-   <div>
-    <p>
-      Javascript
-    </h4>
-    <img src="example_js.png" style="max-width: ">
-  </div>
-   <div>
-    <p>
-      Javascript
-    </h4>
-    <img src="example_js.png" style="max-width: ">
-  </div>
-
 </div>
