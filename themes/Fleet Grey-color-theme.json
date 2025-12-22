@@ -2256,18 +2256,6 @@
       }
     },
     {
-      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": "keyword.control.import.python,keyword.control.flow.python",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "scope": "markup.italic.markdown",
       "settings": {
         "fontStyle": "italic"

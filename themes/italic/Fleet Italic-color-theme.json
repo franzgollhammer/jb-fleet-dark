@@ -1249,14 +1249,6 @@
       }
     },
     {
-      "scope": [
-        "meta.attribute.python",
-      ],
-      "settings": {
-        "foreground": "#AAA0FA"
-      }
-    },
-    {
       "scope": "support.constant.json",
       "settings": {
         "foreground": "#F8C762"
@@ -2460,6 +2452,18 @@
       ],
       "settings": {
         "foreground": "#D6D6DD"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword.control.import.python,keyword.control.flow.python",
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
