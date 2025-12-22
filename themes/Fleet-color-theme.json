@@ -1535,7 +1535,7 @@
         "token.storage"
       ],
       "settings": {
-        "foreground": "#82D2CE"
+        "foreground": "#D6D6DD"
       }
     },
     {
@@ -1544,7 +1544,7 @@
         "storage.modifier.pointer"
       ],
       "settings": {
-        "foreground": "#dddddd"
+        "foreground": "#D6D6DD"
       }
     },
     {
@@ -1762,7 +1762,7 @@
     {
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#D6D6DD"
+        "foreground": "#82D2CE"
       }
     },
     {
