@@ -2254,7 +2254,10 @@
       }
     },
     {
-      "scope": "entity.name.tag.yaml",
+      "scope": [
+        "entity.name.tag.yaml",
+        "support.type.property-name.toml"
+      ],
       "settings": {
         "foreground": "#82D2CE"
       }
