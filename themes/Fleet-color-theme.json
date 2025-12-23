@@ -2472,6 +2472,21 @@
     },
     {
       "scope": [
+        "string.unquoted.plain.out.yaml",
+        "constant.language.boolean.yaml",
+      ],
+      "settings": {
+        "foreground": "#AAA0FA"
+      }
+    },
+    {
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "#82D2CE"
+      }
+    },
+    {
+      "scope": [
         "constant.language.symbol.elixir"
       ],
       "settings": {
