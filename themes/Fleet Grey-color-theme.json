@@ -1633,6 +1633,12 @@
     {
       "scope": "support.type.property-name.json",
       "settings": {
+        "foreground": "#AAA0FA"
+      }
+    },
+    {
+      "scope": "constant.language.json.comments",
+      "settings": {
         "foreground": "#82D2CE"
       }
     },
@@ -2281,7 +2287,11 @@
       }
     },
     {
-      "scope": "entity.name.tag.yaml",
+      "scope": [
+        "entity.name.tag.yaml",
+        "support.type.property-name.toml",
+        "support.type.property-name.table.toml"
+      ],
       "settings": {
         "foreground": "#82D2CE"
       }
