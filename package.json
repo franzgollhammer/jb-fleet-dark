@@ -38,33 +38,33 @@
     "themes": [
       {
         "label": "Fleet",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet-color-theme.json"
+        "path": "./themes/Fleet-color-theme.json",
+        "uiTheme": "vs-dark"
       },
       {
         "label": "Fleet Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Dark-color-theme.json"
+        "path": "./themes/Fleet Dark-color-theme.json",
+        "uiTheme": "vs-dark"
       },
       {
         "label": "Fleet Grey",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Grey-color-theme.json"
+        "path": "./themes/Fleet Grey-color-theme.json",
+        "uiTheme": "vs-dark"
       },
       {
         "label": "Fleet Ocean",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Ocean-color-theme.json"
+        "path": "./themes/Fleet Ocean-color-theme.json",
+        "uiTheme": "vs-dark"
       },
       {
         "label": "Fleet Palenight",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Fleet Palenight-color-theme.json"
+        "path": "./themes/Fleet Palenight-color-theme.json",
+        "uiTheme": "vs-dark"
       },
       {
         "label": "Sphere",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Sphere-color-theme.json"
+        "path": "./themes/Sphere-color-theme.json",
+        "uiTheme": "vs-dark"
       }
     ]
   },
