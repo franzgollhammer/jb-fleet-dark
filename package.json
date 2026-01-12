@@ -1,7 +1,7 @@
 {
   "name": "jb-fleet-dark",
   "displayName": "VS Code Fleet",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "VS Code Fleet inspired by JetBrains Fleet Dark Theme",
   "categories": [
     "Themes"
@@ -30,9 +30,9 @@
   "scripts": {
     "ncu": "npx npm-check-updates -u",
     "package": "npx vsce package",
-    "publish": "source .env && npm run upgrade-package-version && npm run sort-package && npm run package && npx vsce publish -p $VSCE_PAT && npx ovsx publish -p $OVSX_PAT",
-    "publish:vsce": "source .env && npx vsce publish -p $VSCE_PAT",
-    "publish:ovsx": "source .env && npx ovsx publish -p $OVSX_PAT",
+    "publish": "npm run upgrade-package-version && npm run sort-package && npm run package && npx vsce publish && bash -c 'source ~/.zshrc 2>/dev/null; npx ovsx publish -p \"$OVSX_PAT\"'",
+    "publish:ovsx": "bash -c 'source ~/.zshrc 2>/dev/null; npx ovsx publish -p \"$OVSX_PAT\"'",
+    "publish:vsce": "npx vsce publish",
     "sort-package": "npx sort-package-json ",
     "upgrade-package-version": "node ./scripts/upgrade-package-version.js"
   },
