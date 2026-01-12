@@ -30,7 +30,9 @@
   "scripts": {
     "ncu": "npx npm-check-updates -u",
     "package": "npx vsce package",
-    "publish": "npm run upgrade-package-version && npm run sort-package && npm run package && npx vsce publish",
+    "publish": "source .env && npm run upgrade-package-version && npm run sort-package && npm run package && npx vsce publish -p $VSCE_PAT && npx ovsx publish -p $OVSX_PAT",
+    "publish:vsce": "source .env && npx vsce publish -p $VSCE_PAT",
+    "publish:ovsx": "source .env && npx ovsx publish -p $OVSX_PAT",
     "sort-package": "npx sort-package-json ",
     "upgrade-package-version": "node ./scripts/upgrade-package-version.js"
   },
