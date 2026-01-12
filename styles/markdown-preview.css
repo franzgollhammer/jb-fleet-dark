@@ -1,0 +1,175 @@
+/**
+ * Fleet Theme - Markdown Preview Styles
+ * Uses VS Code CSS variables to automatically match the active theme
+ */
+
+body {
+  background-color: var(--vscode-editor-background);
+  color: var(--vscode-editor-foreground);
+  font-family: var(--vscode-font-family, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif);
+  line-height: 1.6;
+}
+
+/* Inline code */
+code {
+  background-color: var(--vscode-textCodeBlock-background);
+  color: var(--vscode-textPreformat-foreground);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: var(--vscode-editor-font-family, "SF Mono", Monaco, Menlo, Consolas, "Ubuntu Mono", "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace);
+  font-size: 0.9em;
+}
+
+/* Code blocks */
+pre {
+  background-color: var(--vscode-textCodeBlock-background);
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+pre code {
+  padding: 0;
+  background-color: transparent;
+  font-size: 0.875em;
+  line-height: 1.45;
+}
+
+/* Links */
+a {
+  color: var(--vscode-textLink-foreground);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--vscode-textLink-activeForeground);
+  text-decoration: underline;
+}
+
+/* Blockquotes */
+blockquote {
+  background-color: var(--vscode-textBlockQuote-background);
+  border-left: 4px solid var(--vscode-textBlockQuote-border);
+  margin: 0;
+  padding: 0.5em 1em;
+  color: var(--vscode-foreground, inherit);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--vscode-editor-foreground);
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+h1 {
+  border-bottom: 1px solid var(--vscode-panel-border, #3c3c3c);
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  border-bottom: 1px solid var(--vscode-panel-border, #3c3c3c);
+  padding-bottom: 0.3em;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+th, td {
+  border: 1px solid var(--vscode-panel-border, #3c3c3c);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: var(--vscode-textCodeBlock-background);
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: var(--vscode-textCodeBlock-background);
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid var(--vscode-panel-border, #3c3c3c);
+  margin: 2em 0;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 2em;
+}
+
+li {
+  margin: 0.25em 0;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Syntax highlighting for code blocks - Fleet theme colors */
+.vscode-dark pre code .hljs-keyword,
+.vscode-dark pre code .token.keyword {
+  color: #82D2CE;
+}
+
+.vscode-dark pre code .hljs-string,
+.vscode-dark pre code .token.string {
+  color: #A8CC7C;
+}
+
+.vscode-dark pre code .hljs-number,
+.vscode-dark pre code .token.number {
+  color: #EBC88D;
+}
+
+.vscode-dark pre code .hljs-function,
+.vscode-dark pre code .token.function {
+  color: #EFB080;
+}
+
+.vscode-dark pre code .hljs-comment,
+.vscode-dark pre code .token.comment {
+  color: #7a7a7a;
+}
+
+.vscode-dark pre code .hljs-type,
+.vscode-dark pre code .token.class-name,
+.vscode-dark pre code .token.type {
+  color: #87C3FF;
+}
+
+.vscode-dark pre code .hljs-variable,
+.vscode-dark pre code .token.variable {
+  color: #D6D6DD;
+}
+
+.vscode-dark pre code .hljs-attr,
+.vscode-dark pre code .token.attr-name {
+  color: #AAA0FA;
+}
+
+.vscode-dark pre code .hljs-built_in,
+.vscode-dark pre code .token.builtin {
+  color: #E394DC;
+}
+
+.vscode-dark pre code .hljs-operator,
+.vscode-dark pre code .token.operator {
+  color: #dddddd;
+}
+
+.vscode-dark pre code .hljs-punctuation,
+.vscode-dark pre code .token.punctuation {
+  color: #dddddd;
+}

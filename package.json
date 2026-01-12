@@ -35,6 +35,9 @@
     "upgrade-package-version": "node ./scripts/upgrade-package-version.js"
   },
   "contributes": {
+    "markdown.previewStyles": [
+      "./styles/markdown-preview.css"
+    ],
     "themes": [
       {
         "label": "Fleet",
