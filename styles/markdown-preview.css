@@ -125,7 +125,7 @@ img {
 
 .vscode-dark pre code .hljs-string,
 .vscode-dark pre code .token.string {
-  color: #A8CC7C;
+  color: #E394DC;
 }
 
 .vscode-dark pre code .hljs-number,
@@ -140,7 +140,8 @@ img {
 
 .vscode-dark pre code .hljs-comment,
 .vscode-dark pre code .token.comment {
-  color: #7a7a7a;
+  color: #909192;
+  font-style: italic;
 }
 
 .vscode-dark pre code .hljs-type,
@@ -161,7 +162,7 @@ img {
 
 .vscode-dark pre code .hljs-built_in,
 .vscode-dark pre code .token.builtin {
-  color: #E394DC;
+  color: #82D2CE;
 }
 
 .vscode-dark pre code .hljs-operator,
@@ -172,4 +173,29 @@ img {
 .vscode-dark pre code .hljs-punctuation,
 .vscode-dark pre code .token.punctuation {
   color: #dddddd;
+}
+
+/* JSON-specific syntax highlighting */
+.vscode-dark pre code .token.property {
+  color: #AAA0FA;
+}
+
+.vscode-dark pre code .hljs-attr,
+.vscode-dark pre code .token.attr-name,
+.vscode-dark pre code .token.property.object-literal {
+  color: #AAA0FA;
+}
+
+/* Boolean and null values */
+.vscode-dark pre code .hljs-literal,
+.vscode-dark pre code .token.boolean,
+.vscode-dark pre code .token.null,
+.vscode-dark pre code .token.undefined {
+  color: #82D2CE;
+}
+
+/* Constant values */
+.vscode-dark pre code .hljs-constant,
+.vscode-dark pre code .token.constant {
+  color: #F8C762;
 }
