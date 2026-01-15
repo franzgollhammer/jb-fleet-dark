@@ -1,7 +1,7 @@
 {
   "name": "jb-fleet-dark",
   "displayName": "VS Code Fleet",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "description": "VS Code Fleet inspired by JetBrains Fleet Dark Theme",
   "categories": [
     "Themes"
@@ -37,6 +37,15 @@
     "upgrade-package-version": "node ./scripts/upgrade-package-version.js"
   },
   "contributes": {
+    "configurationDefaults": {
+      "todo-tree.highlights.customHighlight": {
+        "TODO": {
+          "foreground": "#97DC92",
+          "type": "text",
+          "fontStyle": "italic"
+        }
+      }
+    },
     "markdown.previewStyles": [
       "./styles/markdown-preview.css"
     ],
