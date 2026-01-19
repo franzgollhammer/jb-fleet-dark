@@ -46,9 +46,6 @@
         }
       }
     },
-    "markdown.previewStyles": [
-      "./styles/markdown-preview.css"
-    ],
     "themes": [
       {
         "label": "Fleet",

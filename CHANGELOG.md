@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.21] - 2026-01-19
+
+- Disable custom markdown preview styling (can conflict with other extensions)
+
 ## [1.0.20] - 2026-01-19
 
 - Improve widget backgrounds: use slightly lighter background for hover, autocomplete, peek view, command palette, find/replace, and debug toolbar
