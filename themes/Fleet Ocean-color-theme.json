@@ -230,7 +230,7 @@
     //"editor.inlineValuesBackground": "#ffc80033",
     //"editor.inlineValuesForeground": "#ffffff80",
     "editor.lineHighlightBorder": "#44475a",
-    //"editor.linkedEditingBackground": "#ff00004d",
+    "editor.linkedEditingBackground": "#6e7a8540",
     //"editor.rangeHighlightBackground": "#ffffff0b",
     //"editor.selectionBackground": "#264f78",
     //"editor.snippetFinalTabstopHighlightBorder": "#525252",

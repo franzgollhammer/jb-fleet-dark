@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.18] - 2026-01-19
+
+- Add subtle grey highlight for matching HTML tag pairs (linkedEditingBackground)
+
 ## [1.0.16] - 2026-01-19
 
 - Improve markdown syntax highlighting: headings text in yellow, heading punctuation in cyan

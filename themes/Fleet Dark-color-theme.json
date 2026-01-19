@@ -346,7 +346,7 @@
     //"editor.focusedStackFrameHighlightBackground": "#7abd7a4d",
     //"editor.inlineValuesBackground": "#ffc80033",
     //"editor.inlineValuesForeground": "#cfcfcf80",
-    //"editor.linkedEditingBackground": "#ff00004d",
+    "editor.linkedEditingBackground": "#6e7a8540",
     //"editor.snippetFinalTabstopHighlightBorder": "#525252",
     //"editor.snippetTabstopHighlightBackground": "#7c7c7c4d",
     //"editor.stackFrameHighlightBackground": "#ffff0033",

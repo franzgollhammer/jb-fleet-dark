@@ -352,7 +352,7 @@
     //"editor.foldPlaceholderForeground": "#808080",
     //"editor.inlineValuesBackground": "#ffc80033",
     //"editor.inlineValuesForeground": "#ffffff80",
-    //"editor.linkedEditingBackground": "#ff00004d",
+    "editor.linkedEditingBackground": "#6e7a8540",
     //"editor.placeholder.foreground": "#ffffff56",
     //"editor.stackFrameHighlightBackground": "#ffff0033",
     //"editor.symbolHighlightBackground": "#88c0d044",
