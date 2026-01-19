@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.20] - 2026-01-19
+
+- Improve widget backgrounds: use slightly lighter background for hover, autocomplete, peek view, command palette, find/replace, and debug toolbar
+- Add shadow to widgets for better visual separation
+
 ## [1.0.18] - 2026-01-19
 
 - Add subtle grey highlight for matching HTML tag pairs (linkedEditingBackground)
