@@ -1,4 +1,14 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.gitattributes
+.editorconfig
+.claude/**
+.DS_Store
 vsc-extension-quickstart.md
+node_modules/**
+*.vsix
+code-examples/**
+scripts/**
+themes/italic/**
+package-lock.json
