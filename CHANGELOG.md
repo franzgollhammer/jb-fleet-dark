@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.22] - 2026-01-21
+
+- Improve diff editor contrast: increase character-level highlight opacity for inserted and deleted text
+
 ## [1.0.21] - 2026-01-19
 
 - Disable custom markdown preview styling (can conflict with other extensions)
