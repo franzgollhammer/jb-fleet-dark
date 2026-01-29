@@ -1,26 +1,45 @@
 # VS Code Fleet Themes
 
-VS Code themes inspired by JetBrains Fleet Dark, with multiple variants.
+A collection of elegant, carefully crafted VS Code themes inspired by JetBrains Fleet Dark. Designed for developers who appreciate clean aesthetics and excellent readability.
 
 ![VS Code Fleet theme](./example.png)
 
-## Installation
+## ✨ Features
 
-- Marketplace: https://marketplace.visualstudio.com/items?itemName=franzgollhammer.jb-fleet-dark
-- From VS Code: Open Extensions, search for "VS Code Fleet", then Install.
+- **6 Beautiful Variants**: Fleet, Fleet Dark, Fleet Grey, Fleet Ocean, Fleet Palenight, and Sphere
+- **Optimized for Readability**: Carefully selected color palettes for reduced eye strain
+- **Comprehensive Coverage**: Syntax highlighting for all major languages and frameworks
+- **Semantic Highlighting**: Enhanced token colorization for modern languages
+- **Polished UI**: Themed editor, terminal, and UI components
 
-## Activate a Theme
+## 📦 Installation
 
-Open Command Palette → "Preferences: Color Theme" → choose one of:
+### From VS Code Marketplace
 
-- Fleet
-- Fleet Dark
-- Fleet Grey
-- Fleet Ocean
-- Fleet Palenight
-- Sphere
+1. Open VS Code
+2. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
+3. Search for "VS Code Fleet"
+4. Click Install
 
-## Recommended Settings (settings.json)
+### From Marketplace Link
+
+[Install from Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=franzgollhammer.jb-fleet-dark)
+
+## 🎨 Activate a Theme
+
+1. Open Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
+2. Type "Preferences: Color Theme"
+3. Choose one of the available variants:
+   - **Fleet** - The classic Fleet experience
+   - **Fleet Dark** - Deeper, darker variant
+   - **Fleet Grey** - Elegant grey tones
+   - **Fleet Ocean** - Cool ocean-inspired blues
+   - **Fleet Palenight** - Soft purple night theme
+   - **Sphere** - Alternative modern variant
+
+## ⚙️ Recommended Settings
+
+For the best experience, add these settings to your `settings.json`:
 
 ```json
 {
@@ -37,22 +56,42 @@ Open Command Palette → "Preferences: Color Theme" → choose one of:
 }
 ```
 
-## Font
+## 🔤 Recommended Font
 
-Install JetBrains Mono Nerd Font so ligatures and symbols render nicely:
+For optimal appearance with programming ligatures and symbols:
 
-- Download: https://www.nerdfonts.com/font-downloads (choose JetBrainsMono)
-- After installing, set `editor.fontFamily` as in the settings above.
+**JetBrains Mono Nerd Font**
 
-## Compatibility
+1. Download from [Nerd Fonts](https://www.nerdfonts.com/font-downloads) (select JetBrainsMono)
+2. Install the font on your system
+3. Configure VS Code to use it (see Recommended Settings above)
 
-Requires VS Code 1.82+.
+### Why JetBrains Mono?
 
-## Changelog & License
+- Designed specifically for developers
+- Excellent ligature support
+- Clear distinction between similar characters (0/O, 1/l/I)
+- Nerd Font variant includes icons and symbols
 
-- Changelog: [CHANGELOG.md](./CHANGELOG.md)
-- License: [License.md](./License.md)
+## 🔧 Compatibility
 
-## Acknowledgements
+- **VS Code**: Version 1.82.0 or higher
+- **Platforms**: Windows, macOS, Linux
+- **Languages**: Supports all major programming languages
 
-Inspired by JetBrains Fleet.
+## 📝 Changelog & License
+
+- **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
+- **License**: MIT - [License.md](./License.md)
+
+## 🙏 Acknowledgements
+
+This theme is inspired by the beautiful design of [JetBrains Fleet](https://www.jetbrains.com/fleet/).
+
+## 🐛 Issues & Contributions
+
+Found a bug or have a suggestion? Please open an issue on [GitHub](https://github.com/franzgollhammer/jb-fleet-dark).
+
+---
+
+**Enjoy coding with Fleet!** ⚡
