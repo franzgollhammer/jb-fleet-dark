@@ -1,13 +1,19 @@
 # VS Code Fleet Themes
 
+[![Version](https://img.shields.io/visual-studio-marketplace/v/franzgollhammer.jb-fleet-dark)](https://marketplace.visualstudio.com/items?itemName=franzgollhammer.jb-fleet-dark)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/franzgollhammer.jb-fleet-dark)](https://marketplace.visualstudio.com/items?itemName=franzgollhammer.jb-fleet-dark)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/franzgollhammer.jb-fleet-dark)](https://marketplace.visualstudio.com/items?itemName=franzgollhammer.jb-fleet-dark)
+[![Open VSX](https://img.shields.io/open-vsx/v/franzgollhammer/jb-fleet-dark)](https://open-vsx.org/extension/franzgollhammer/jb-fleet-dark)
+
 VS Code themes inspired by JetBrains Fleet Dark, with multiple variants.
 
 ![VS Code Fleet theme](./example.png)
 
 ## Installation
 
-- Marketplace: https://marketplace.visualstudio.com/items?itemName=franzgollhammer.jb-fleet-dark
-- From VS Code: Open Extensions, search for "VS Code Fleet", then Install.
+- **VS Code Marketplace**: [Install](https://marketplace.visualstudio.com/items?itemName=franzgollhammer.jb-fleet-dark)
+- **Open VSX**: [Install](https://open-vsx.org/extension/franzgollhammer/jb-fleet-dark)
+- **From VS Code**: Extensions → search "VS Code Fleet" → Install
 
 ## Activate a Theme
 
@@ -48,10 +54,11 @@ Install JetBrains Mono Nerd Font so ligatures and symbols render nicely:
 
 Requires VS Code 1.82+.
 
-## Changelog & License
+## Links
 
-- Changelog: [CHANGELOG.md](./CHANGELOG.md)
-- License: [License.md](./License.md)
+- [GitHub](https://github.com/franzgollhammer/jb-fleet-dark)
+- [Changelog](./CHANGELOG.md)
+- [License](./License.md)
 
 ## Acknowledgements
 
