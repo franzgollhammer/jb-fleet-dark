@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.28] - 2026-02-05
+
+- Improve terminal cursor visibility in Fleet Light
+
 ## [1.0.27] - 2026-02-05
 
 - Fix low contrast autocomplete suggestions in Fleet Light theme (#8)
