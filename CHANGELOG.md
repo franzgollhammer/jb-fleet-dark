@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.30] - 2026-02-05
+
+- Improve Fleet Light toolbar contrast
+
 ## [1.0.29] - 2026-02-05
 
 - Improve terminal cursor visibility in Fleet Light
