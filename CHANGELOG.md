@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.26] - 2026-02-05
+
+- Update terminal bright green color to #97DC92
+- Standardize scope settings formatting across all themes
+
 ## [1.0.25] - 2026-02-05
 
 - Remove default font size settings from README
