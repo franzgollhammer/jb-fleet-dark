@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.27] - 2026-02-05
+
+- Fix low contrast autocomplete suggestions in Fleet Light theme (#8)
+
 ## [1.0.26] - 2026-02-05
 
 - Update terminal bright green color to #97DC92
