@@ -267,7 +267,15 @@
     "panelSectionHeader.background": "#eeeeee",
     "quickInput.background": "#f8f8f8",
     "sash.hoverBorder": "#1976d2",
-    "widget.border": "#e0e0e0"
+    "widget.border": "#e0e0e0",
+    "toolbar.hoverBackground": "#e8e8e8",
+    "toolbar.hoverOutline": "#1976d2",
+    "toolbar.activeBackground": "#1976d2",
+    "actionBar.toggledBackground": "#1976d2",
+    "editorActionList.background": "#f8f8f8",
+    "editorActionList.foreground": "#333333",
+    "editorActionList.focusBackground": "#e3f2fd",
+    "editorActionList.focusForeground": "#333333"
   },
   "tokenColors": [
     {
