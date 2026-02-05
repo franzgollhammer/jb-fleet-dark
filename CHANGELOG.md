@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.25] - 2026-02-05
+
+- Remove default font size settings from README
+
 ## [1.0.24] - 2026-02-05
 
 - Add Fleet Light theme
