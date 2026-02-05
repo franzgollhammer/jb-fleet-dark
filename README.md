@@ -47,8 +47,6 @@ For the best experience, add these settings to your `settings.json`:
 {
 	"workbench.colorTheme": "Fleet",
 	"editor.fontFamily": "JetBrainsMono Nerd Font",
-	"editor.fontSize": 13,
-	"terminal.integrated.fontSize": 13,
 	"editor.lineHeight": 1.7,
 	"debug.console.lineHeight": 1.3,
 	"terminal.integrated.lineHeight": 1.3,
