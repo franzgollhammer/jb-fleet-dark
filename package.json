@@ -9,6 +9,7 @@
   "keywords": [
     "Theme",
     "Dark Theme",
+    "Light Theme",
     "Fleet",
     "VS Code Fleet",
     "VS Code Fleet Dark",
@@ -76,6 +77,11 @@
         "label": "Sphere",
         "path": "./themes/Sphere-color-theme.json",
         "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Fleet Light",
+        "path": "./themes/Fleet Light-color-theme.json",
+        "uiTheme": "vs"
       }
     ]
   },
