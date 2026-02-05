@@ -1,12 +1,13 @@
 # VS Code Fleet Themes
 
-A collection of elegant, carefully crafted VS Code themes inspired by JetBrains Fleet Dark. Designed for developers who appreciate clean aesthetics and excellent readability.
+A collection of elegant, carefully crafted VS Code themes inspired by JetBrains Fleet. Includes both dark and light variants for developers who appreciate clean aesthetics and excellent readability.
 
-![VS Code Fleet theme](./example.png)
+![VS Code Fleet dark](./fleet-dark.png)
+![VS Code Fleet light](./fleet-light.png)
 
 ## ✨ Features
 
-- **6 Beautiful Variants**: Fleet, Fleet Dark, Fleet Grey, Fleet Ocean, Fleet Palenight, and Sphere
+- **7 Beautiful Variants**: 6 dark themes + 1 light theme
 - **Optimized for Readability**: Carefully selected color palettes for reduced eye strain
 - **Comprehensive Coverage**: Syntax highlighting for all major languages and frameworks
 - **Semantic Highlighting**: Enhanced token colorization for modern languages
@@ -36,6 +37,7 @@ A collection of elegant, carefully crafted VS Code themes inspired by JetBrains 
    - **Fleet Ocean** - Cool ocean-inspired blues
    - **Fleet Palenight** - Soft purple night theme
    - **Sphere** - Alternative modern variant
+   - **Fleet Light** - Clean, bright light theme
 
 ## ⚙️ Recommended Settings
 

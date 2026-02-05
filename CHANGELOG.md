@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.24] - 2026-02-05
+
+- Add Fleet Light theme
+- Update README with light theme screenshots
+
 ## [1.0.21] - 2026-01-19
 
 - Disable custom markdown preview styling (can conflict with other extensions)
