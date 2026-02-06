@@ -38,15 +38,6 @@
     "upgrade-package-version": "node ./scripts/upgrade-package-version.js"
   },
   "contributes": {
-    "configurationDefaults": {
-      "todo-tree.highlights.customHighlight": {
-        "TODO": {
-          "foreground": "#97DC92",
-          "type": "text",
-          "fontStyle": "italic"
-        }
-      }
-    },
     "themes": [
       {
         "label": "Fleet",
